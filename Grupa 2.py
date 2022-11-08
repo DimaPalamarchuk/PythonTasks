@@ -1,6 +1,7 @@
 a=int(input('Wpisz pierwsze liczba: '))
 b=int(input('Wpisz drugie liczba: '))
-while a>b:
-    if a>b: print("Tak")
+if a%b == 0:
+    print("Tak")
 else:
-    print("Nie")
+    print('Nie')
+print((a//b))
