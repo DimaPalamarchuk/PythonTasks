@@ -7,5 +7,14 @@ while y < 15:
     x = round(x, 2)
     punkty.append(x)
     y += 1
+
 print(punkty)
 
+print(max(punkty))
+print(min(punkty))
+y = float(input('Podaj liczbę: '))
+
+if y in punkty:
+    print(punkty.index(y))
+else:
+    print("Warość nie występuje")
